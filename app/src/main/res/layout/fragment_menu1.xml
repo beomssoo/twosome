@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/jaesin">
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:id="@+id/prod_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="상품명"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/prod_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="관련최저가"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="이전" />
+</LinearLayout>

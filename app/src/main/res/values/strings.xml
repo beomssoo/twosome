@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shortpping</string>
+    <string name="notification_channel_id">"notification_channel_id"</string>
+    <string name="notification_channel_name">"notification_channel_name"</string>
+    <string name="lowest_price">최저가</string>
+    <string name="side">사이드</string>
+</resources>
